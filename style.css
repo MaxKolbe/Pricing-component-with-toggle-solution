@@ -161,10 +161,10 @@
    color: hsl(228, 45%, 44%); 
  }
 /* MEDIA-QUERIES */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 945px) {
   .enclose{
     padding: 20px 0px;
-    margin: 0px 28px;
+    margin: 0px 25px;
   }
   .switch h1{
     font-size: 28px;
@@ -182,11 +182,17 @@
     margin-bottom: 40px;
     box-shadow: none;
   } 
+  .col-2 h1{
+    font-size: 64px;
+  }
+  .col-3 h1{
+    font-size: 64px;
+  }
   .bg{
     height: 100%;
   }
 }
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1055px) {
   .col-1, .col-3{
     padding-bottom: 20px;
     padding-left: 10px;
@@ -197,4 +203,8 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .enclose{
+    padding: 20px 20px;
+  }
 }
+
